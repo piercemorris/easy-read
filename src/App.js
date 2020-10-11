@@ -6,6 +6,8 @@ import {
   Link
 } from "react-router-dom";
 
+import Search from "./components/common/Search";
+
 function App() {
   return (
     <Router>
@@ -29,10 +31,10 @@ function App() {
             <p>About</p>
           </Route>
           <Route path="/create">
-            <p>Create</p>
+            <Search />
           </Route>
           <Route exact path="/">
-            <p>Home</p>
+            <p>Welcome</p>
           </Route>
           <Route path="*">
             <p>Error 404</p>
