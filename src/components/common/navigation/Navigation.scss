@@ -1,0 +1,12 @@
+.nav-link {
+  border-radius: 5px;
+  //-webkit-box-shadow: 0px 0px 24px -10px rgba(0, 0, 0, 0.75);
+  //-moz-box-shadow: 0px 0px 24px -10px rgba(0, 0, 0, 0.75);
+  //box-shadow: 0px 0px 24px -10px rgba(0, 0, 0, 0.75);
+  text-decoration: none;
+  color: #c2c2c2;
+
+  &-active {
+    color: white;
+  }
+}
